@@ -11,7 +11,7 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.js$/,
+                test: /\.(js|png|jpg|gif)$/,
                 include: path.resolve(__dirname, 'src'),
                 loader: 'babel-loader',
                 query: {
