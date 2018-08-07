@@ -2,18 +2,21 @@
   var ReactDOM = require('react-dom');
 
   import ParallaxImage from 'react-image-parallax2';
-  
+  import '../style/splashPage.css';
 
     
 // Create Component
  var SplashPage = React.createClass({
      render:function(){
          return (
-            <div>
+            <div className="main-container">
                  <ParallaxImage 
                     src={('../assets/main.JPG')}
                     reduceHeight={0.30}>
                 </ParallaxImage>
+                <div>
+                    <p>Herro</p>
+                </div>
 
                 <ParallaxImage 
                     src={('../assets/katiebeach.jpg')}
