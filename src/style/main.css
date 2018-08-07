@@ -1,0 +1,21 @@
+body{
+    background-color: #808080;
+    width: 100%;
+    margin: 0;
+
+}
+
+.navbar{
+    color: #fff;
+    display: flex;
+    background-color: #1d4776;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 92px;
+
+}
+
+.main-container{
+    width: 100%;
+}
