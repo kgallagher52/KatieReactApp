@@ -2,20 +2,41 @@ body{
     background-color: #808080;
     width: 100%;
     margin: 0;
-
-}
-
-.navbar{
-    color: #fff;
-    display: flex;
-    background-color: #1d4776;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-    height: 92px;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
 }
 
 .main-container{
     width: 100%;
 }
+
+
+
+/* Navigation */
+.nav-bar{
+    color: #fff;
+    display: flex;
+    background-color:rgba(19,64,116,0.8);
+    width: 100%;
+    justify-content: space-between;
+    height: 92px;
+
+
+}
+
+.main-title {
+    font-size: 1.4rem;
+    font-kerning: auto;
+    font-weight: bold;
+    color: white;
+    padding: 12px;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.main-title .secondary-color {
+    color: #9eadc8;
+}
+
+
+

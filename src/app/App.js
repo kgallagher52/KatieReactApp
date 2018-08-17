@@ -11,7 +11,6 @@
      render:function(){
          return (
             <div className="main-container">
-                <NavigationComponent></NavigationComponent>
                 <ParallaxComponent></ParallaxComponent>
                
             </div>

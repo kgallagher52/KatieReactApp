@@ -73,7 +73,7 @@
 	            'div',
 	            { className: 'main-container' },
 	            React.createElement(_NavigationComponent2.default, null),
-	            React.createElement('parallaxComponent', null)
+	            React.createElement(_ParallaxComponent2.default, null)
 	        );
 	    }
 	});
@@ -6258,7 +6258,7 @@
 	
 	
 	// module
-	exports.push([module.id, "body{\n    background-color: #808080;\n\n}\n\n.navbar{\n    color: #fff;\n    display: flex;\n    background-color: #1d4776;\n    flex-direction: row;\n    width: 100%;\n    justify-content: space-between;\n    height: 92px;\n\n}\n\n.main-container{\n}", ""]);
+	exports.push([module.id, "body{\n    background-color: #808080;\n    width: 100%;\n    margin: 0;\n\n}\n\n.navbar{\n    color: #fff;\n    display: flex;\n    background-color: #1d4776;\n    flex-direction: row;\n    width: 100%;\n    justify-content: space-between;\n    height: 92px;\n\n}\n\n.main-container{\n    width: 100%;\n}", ""]);
 	
 	// exports
 
